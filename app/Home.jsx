@@ -264,7 +264,14 @@ const Home = () => {
         <Link href="/RateThisApp" asChild>
           <TouchableOpacity style={styles.card}>
             <Ionicons name="star" size={28} color="#FFD700" />
-            <Text style={styles.cardText}>Rate This App</Text>
+            <Text style={styles.cardText}>Ratings</Text>
+          </TouchableOpacity>
+        </Link>
+
+        <Link href="/Reviews" asChild>
+          <TouchableOpacity style={styles.card}>
+            <Ionicons name="chatbubble" size={28} color="#FFD700" />
+            <Text style={styles.cardText}>Reviews</Text>
           </TouchableOpacity>
         </Link>
       </ScrollView>
